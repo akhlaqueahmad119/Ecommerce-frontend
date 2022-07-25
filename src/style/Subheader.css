@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(62, 62, 66); */
+}
+.main-subheader{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(243, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(12, 83, 65);
+}
+.c-name{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 50px;
+    width: 30%;
+    /* background-color: blueviolet; */
+}
+.about-shop{
+    width: 40%;
+    /* background-color: rgb(46, 43, 226); */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.cart-s{
+    width: 30%;
+    /* background-color: rgb(226, 43, 89);  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.home h5{
+    /* background-color: blue; */
+    height: 18px;
+    width: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home:hover{
+    outline: 1px solid;
+    cursor: pointer;
+ } 
+.shop h5{
+    /* background-color: blue; */
+    height: 20px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop:hover{
+    outline: 1px solid;
+    cursor: pointer;
+ } 
+.blog h5{
+    /* background-color: blue; */
+    height: 20px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog:hover{
+   outline: 1px solid;
+   cursor: pointer;
+} 
+.pages h5{
+ height: 50px;    /* background-color: blue; */
+    height: 20px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pages:hover{
+    outline: 1px solid;
+    cursor: pointer;
+ } 
+.contact h5{
+    /* background-color: blue; */
+    height: 20px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact:hover{
+    outline: 1px solid;
+    cursor: pointer;
+ } 
+ .fafasc{
+    /* background-color: aqua; */
+    width: 40px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .totalno{
+    /* background-color: blue; */
+    height: 50px;
+    padding-top: 7px;
+    font-weight: 800;
+    font-size: small;
+    color: green;
+    
+ }
+ .carthai{
+    cursor: pointer;
+ }

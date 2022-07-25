@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+}
+
+.img-cart img{
+    width: 100%;
+    height: 559.8px;
+    position: relative;
+}
+.cartt{
+    width: 500px;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.cart-men{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(156, 149, 149);
+    color: rgb(68, 114, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 800;
+    cursor: pointer;
+    font-size:large;
+    /* color: aliceblue; */
+    border-radius: 10px;
+
+}
+.cart-women{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(156, 149, 149);
+    color: rgb(68, 114, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 800;
+    cursor: pointer;
+    font-size:large;
+    /* color: aliceblue; */
+    border-radius: 10px;
+
+}

@@ -1,0 +1,136 @@
+.html,body{
+    height: 100%;
+    width: 100%;
+}
+.hehe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.size-card-box{
+    /* background-color: rgb(209, 203, 203); */
+    /* background-image: linear-gradient(to right,rgb(163, 151, 151),rgb(209, 203, 203)); */
+    background-color:  #37475A;
+     width: 50%;
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+    
+
+}
+.card-img img{
+    height: 170px;
+    width: 150px;
+    /* margin-top: 5px; */
+
+    
+}
+.card-cname{
+    height: 20px;
+    width: 150px;
+    /* background-color: aqua;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: bold; */
+}
+.card-cname h4{
+    color: rgb(221, 75, 22);
+} 
+.card-cname .nn{
+    /* margin-top: 4px; */
+    font-size: xx-small;
+} 
+.card-rate{
+    
+    height: 25px;
+  
+  }
+.c-paisa{
+    color: orangered;
+    font-size: x-large;
+  }
+  .c-doller{
+    color: orangered;
+    font-size: large;
+  }
+  .c-delete{
+    font-size: small;
+    /* margin-left: 5px; */
+  }
+  .c-total-off{
+    /* padding: 3px; */
+    /* background-color: brown; */
+    margin-left: 5px;
+  }
+  .card-quantity{
+    background-color: #7f868f;
+    width: 100px;
+    height: 100px;
+  }
+  .card-q{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .size-card-box .card-quantity .card-plus{
+    width: 25px;
+    height: 25px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: medium;
+  
+
+  }
+  .card-p-m{
+    /* background-color: rgb(50, 37, 161); */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-m-m{
+    /* background-color:brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-minus{
+    width: 25px;
+    height: 25px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+    font-size: medium;
+  }
+  .card-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-tprice{
+    background-color: #7f868f;
+    width: 100px;
+    height: 40px;
+  }
+  .card-aprice{
+    /* background-color: blue; */
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-dprice{
+    /* background-color: #0b65e2; */
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
